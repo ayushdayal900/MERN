@@ -1,0 +1,8 @@
+rst api - json
+
+get /users show all users
+get /users/id show user withh given id
+post /users create a user
+patch /users/id edit the user
+delete /users/id to edit the user with id
+
