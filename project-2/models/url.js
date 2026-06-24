@@ -7,7 +7,7 @@ const urlSchema = mongoose.Schema({
         require: true,
         unique: true
     },
-    originalId:{
+    redirectURL:{
         type: String,
         require: true
     },
@@ -19,3 +19,5 @@ const urlSchema = mongoose.Schema({
 )
 
 const URL = mongoose.model('urls', urlSchema)
+
+module.exports = URL
